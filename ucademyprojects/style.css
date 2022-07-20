@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+    border-image: round;
+    background-color: blanchedalmond;
+}
+
+button {
+    color: aqua;
+    border-color: rgb(179, 23, 23);
+    background-color: rgb(163, 151, 44);
+    
+}
