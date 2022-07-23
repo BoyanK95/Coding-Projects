@@ -1,0 +1,39 @@
+.jumbotron {
+    text-align: center;
+    background-image: linear-gradient(yellow, white);
+}
+
+.jumbotron h1 {
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, .6);
+    padding-top: 1.2rem;
+}
+
+.jumbotron p {
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 1.2rem;
+}
+
+.sectionLight {
+    background-color: #eceeef;
+}
+
+
+.main-carousel {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .6);
+}
+
+.carousel-caption h5 {
+    color: rgba(245, 222, 12, 0.911);
+    font-size: 28px;
+    font-weight: bolder;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, .6);
+}
+
+.carousel-caption p {
+    color: yellow;
+    font-size: 19px;
+    font-weight: bold;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, .6);
+}
