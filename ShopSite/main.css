@@ -94,3 +94,31 @@ h5.modal-title {
     width: 70%;
 }
 
+footer {
+    background-color: rgb(226, 226, 226);
+}
+
+.fa-brands {
+    margin: 19px;
+}
+
+.fa-facebook {
+    color: rgb(4, 4, 216);
+}
+
+.fa-google-plus-g {
+    color: rgb(63, 63, 63);
+}
+
+.fa-instagram-square {
+    color: rgb(255, 51, 0);
+
+}
+
+
+.socialWrapper {
+    margin: auto;
+}
+
+
+
