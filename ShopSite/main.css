@@ -80,3 +80,17 @@ button.PromoCodeBtn:hover {
     background-color: #ffffff;
     color: darkred;
 }
+
+h5.modal-title {
+    margin: auto;
+}
+
+
+.btnCenter {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
