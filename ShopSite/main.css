@@ -16,24 +16,67 @@
 }
 
 .sectionLight {
-    background-color: #eceeef;
+    background-image: linear-gradient(white, rgb(65, 65, 65));
 }
 
 
-.main-carousel {
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, .6);
-}
+
 
 .carousel-caption h5 {
     color: rgba(245, 222, 12, 0.911);
-    font-size: 28px;
-    font-weight: bolder;
+    font-size: 40px;
+    font-weight: 800;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, .6);
 }
 
 .carousel-caption p {
-    color: yellow;
-    font-size: 19px;
+    color: rgb(228, 228, 15);
+    font-size: 23px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .9);
+    
+}
+
+.sectionDark {
+    background-color: rgb(190, 190, 190);
+    padding-top: 1rem;
+}
+.sectionDark h1 {
     font-weight: bold;
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, .6);
+    font-size: 37px;
+}
+
+.sectionDark p {
+    font-size: 23px;
+}
+
+
+.sectionWomen {
+    background-color: rgb(245, 189, 198);
+}
+
+.sectionWomen h1 {
+    font-weight: bold;
+    font-size: 37px;
+    
+}
+
+.sectionWomen p {
+    font-size: 23px;
+}
+
+.PromoCodeWrapper {
+    margin-top: 20px; 
+}
+
+button.PromoCodeBtn {
+    background-color: rgb(221, 91, 30);
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+button.PromoCodeBtn:hover {
+    background-color: #ffffff;
+    color: darkred;
 }
