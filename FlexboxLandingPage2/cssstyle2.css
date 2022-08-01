@@ -1,0 +1,11 @@
+html, body {
+    font-family: Helvetica, Arial, sans-serif ;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 1rem;
+    color: rgb(39, 23, 23);
+    margin: 0;
+}
+
