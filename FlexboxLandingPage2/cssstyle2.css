@@ -10,13 +10,13 @@ html, body {
 }
 
 .navbar, .container {
-    display: flex;
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
 }
 
 .navbar {
+    display: flex;
     justify-content: space-between;
     padding: 10px;
 }
@@ -90,23 +90,44 @@ header {
 .services {
     background-color: #faf1f1;
     padding: 4rem 1rem;
-    width: 100%;
 }
 
 .media-object {
     display: flex;
+    align-items: center;
+    padding: 5rem 1rem;
 }
 
-.icon-wrapper {
+.icon-left, 
+.icon-right {
     flex: 1;
     display: flex;
     justify-content: center;
 }
 
-
-.icon-wrapper img {
-    width: 200px;
+.blurb-wrapper-right,
+.blurb-wrapper-left {
+    flex: 1;
 }
+
+
+.icon-left,
+.blurb-wrapper-left {
+    order: 1;
+}
+
+
+.icon-right,
+.blurb-wrapper-right {
+    order: 2;
+}
+
+
+.icon-left img, 
+.icon-right img {
+    max-width: 200px;
+}
+
 
 .blurb-wrapper {
     flex: 1;
