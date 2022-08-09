@@ -166,7 +166,6 @@ header {
 }
 
 
-
 .section-header {
     text-align: center;
     padding: 6rem 0 4rem;
@@ -175,19 +174,19 @@ header {
 
 .portfolio-wrapper {
     display: flex;
-    max-width: 250px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .portfolio-object {
     max-width: 250px;
+    margin: 1.2rem 0;
 }
 
 .portfolio-box {
     width: 250px;
     height: 250px;
-    background-color: #f5dede;
+    background-color: #faf3f1;
     transition: .2s ease-in-out;
 }
 
@@ -195,6 +194,7 @@ header {
     cursor: pointer;
     transform: scale(1.05);
 }
+
 
 
 /* $$$$$$$$$$$$$$$$$$$$$ Mobile $$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -234,5 +234,16 @@ header {
         line-height: 2;
     }
 
+    .portfolio-wrapper {
+        text-align: center;
+    }
 
+
+}
+
+
+@media (max-width: 599px) {
+    .portfolio-wrapper {
+        justify-content: center;
+    }
 }
