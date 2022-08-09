@@ -234,6 +234,25 @@ header {
         line-height: 2;
     }
 
+    .media-object {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icon-right,
+    .icon-right {
+        order: 1;
+    }
+
+    .blurb-wrapper-left,
+    .blurb-wrapper-right {
+        order: 2;
+        padding-top: 2rem;
+    }
+
+
+
+
     .portfolio-wrapper {
         text-align: center;
     }
