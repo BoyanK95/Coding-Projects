@@ -285,6 +285,13 @@ form label {
         text-align: center;
     }
 
+    .form-group {
+        display: flex;
+    }
+    .submit-btn-wrapper {
+        text-align: center;
+    }
+
 }
 
 
