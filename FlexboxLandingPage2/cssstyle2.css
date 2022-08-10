@@ -223,7 +223,19 @@ form label {
     margin-top: 4rem;
 }
 
+.social-media {
+    padding-top: 3rem;
+}
 
+.facebook-icon {
+    padding: 15px;
+    color: blue;
+}
+
+.instagram-icon {
+    padding: 15px;
+    color: red;
+}
 
 
 /* $$$$$$$$$$$$$$$$$$$$$ Mobile $$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -289,6 +301,10 @@ form label {
         display: flex;
     }
     .submit-btn-wrapper {
+        text-align: center;
+    }
+
+    .social-media {
         text-align: center;
     }
 
