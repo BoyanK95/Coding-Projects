@@ -31,6 +31,10 @@ section h2 {
     color: #c6c6c7;
 }
 
+hr {
+    margin-bottom: 25px;
+}
+
 .portfolio-grid {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -46,10 +50,73 @@ section h2 {
     width: 175px;
     background-color: #45a29e;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .portfolio-item:nth-child(even) {
     background-color: transparent;
     border: 2px solid #45a29e;
     color: #c5c6c7;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "form form . fb twitter"
+    "form form . youtube ig";
+    gap: 20px;
+}
+
+.fb, .twitter, .youtube, .ig {
+    width: 175px;
+    height: 175px;
+    color: #c5c6c7;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 7px #66fcf1;
+    background-color: #0b0c10;
+}
+
+.fb > span,
+.twitter > span,
+.youtube > span,
+.ig > span {
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+.form { grid-area: form;}
+.fb {grid-area: fb;}
+.twitter {grid-area: twitter;}
+.youtube {grid-area: youtube;}
+.ig {grid-area: ig;}
+
+
+
+label {
+    display: block;
+    color: #66fcf1;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #66fcf1;
+    padding: 15px 8px;
+    border-radius: 5px;
+    background-color: rgba(197, 198, 199, 0.2);
+    width: 100%;
+}
+
+footer {
+    background-color: #1f2833;
+    padding: 10px;
+    text-align: center;
+    color: #66fcf1;
+    box-shadow: 0px 2px 7px #66fcf1;
+    margin-top: 15px;
 }
