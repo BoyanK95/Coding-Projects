@@ -12,3 +12,13 @@ html, body {
 .nav-brand-img {
 max-width: 42px;
 }
+
+.img-header {
+    max-width: 100%;
+}
+
+.fa-cart-plus {
+    padding: 0.4rem 0.5rem;
+    padding-left: 1rem;
+    color: rgb(71, 71, 104);
+}
