@@ -61,13 +61,21 @@ max-width: 42px;
     text-align: center;
 }
 
+.row {
+    padding: 2.3rem 1.2rem;
+}
+
 .info-img-left {
     text-align: center;
     padding-top: 1.7rem;
     padding-bottom: 1.3rem;
 }
 
-.section-text-right {
+.fa-cart-arrow-down, .fa-check-double {
+    font-size: 3.5rem;
+}
+
+.section-text-right, .section-text-left {
     text-align: center;
 }
 
