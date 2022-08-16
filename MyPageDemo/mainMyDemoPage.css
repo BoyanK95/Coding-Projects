@@ -71,11 +71,13 @@ max-width: 42px;
     padding-bottom: 1.3rem;
 }
 
-.fa-cart-arrow-down, .fa-check-double {
+.fa-cart-arrow-down, 
+.fa-check-double {
     font-size: 3.5rem;
 }
 
-.section-text-right, .section-text-left {
+.section-text-right, 
+.section-text-left {
     text-align: center;
 }
 
