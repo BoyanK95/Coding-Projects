@@ -1,0 +1,16 @@
+html, body {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: beige;
+}
+
+button {
+    padding: 5px 15px;
+    background-color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.input-username {
+    font-size: 1rem;
+}
