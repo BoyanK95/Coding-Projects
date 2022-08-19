@@ -2,6 +2,7 @@ html, body {
     display: block;
     margin: 0;
     text-align: center;
+    background-color: beige;
 }
 
 
@@ -9,6 +10,7 @@ html, body {
     display: block;
     text-align: center;
     font-size: 65px;
+    margin-top: 20px;
 }
 
 button {
@@ -17,4 +19,10 @@ button {
     border-radius: 8px;
     margin: 3px;
     box-shadow: 2px 2px 5px rgba(0,0,0, .5);
+}
+
+button:hover {
+    background-color: rgba(233, 188, 105, 0.938);
+    padding: 8px 16px;
+    box-shadow: 4px 4px 8px rgba(0,0,0, .9);  
 }
