@@ -1,0 +1,20 @@
+html, body {
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 65px;
+}
+
+button {
+    padding: 7px 15px;
+    font-size: 30px;
+    border-radius: 8px;
+    margin: 3px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, .5);
+}
