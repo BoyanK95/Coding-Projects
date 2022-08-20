@@ -5,6 +5,11 @@ html, body {
     background-color: rgb(11, 8, 41);
 }
 
+.container {
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
 label{
     font-size: 50px;
     color: rgb(129, 240, 255);
