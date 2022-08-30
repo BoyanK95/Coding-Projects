@@ -1,0 +1,11 @@
+html, body{
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+}
+
+label{
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
