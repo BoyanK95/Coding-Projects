@@ -1,0 +1,17 @@
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#innerDiv {
+    background-color: lightgreen;
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+}
+
+#outerDiv {
+    background-color: lightgreen;
+    width: 250px;
+    height: 250px;
+}
