@@ -1,0 +1,12 @@
+#myDiv{
+    background-color: rgb(122, 37, 11);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+#myDiv h2{
+    padding: 10px;
+}
