@@ -1,6 +1,7 @@
 let canvas = document.getElementById("myCanvas");
 let context = canvas.getContext("2d");
 
+// Draw LINES
 context.strokeStyle = "purple"
 context.lineWidth = 7;
 context.beginPath();
