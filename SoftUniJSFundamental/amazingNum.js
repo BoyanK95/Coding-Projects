@@ -14,3 +14,4 @@ function solve(num) {
 
 solve(1233)
 solve(999);
+
