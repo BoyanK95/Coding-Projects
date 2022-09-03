@@ -1,0 +1,31 @@
+html, body{
+    display: block;
+    font-size: 25px;
+}
+
+button {
+    font-size: 28px;
+    padding: 5px 15px;
+    margin: 5px 10px;
+    border-radius: 7px;
+}
+button:hover {
+    background-color: rgba(119, 119, 182, 0.764);
+}
+
+button#helloBtn{
+    background-color: rgba(144, 238, 144, 0.815);
+}
+button#helloBtn:hover{
+    background-color: rgba(81, 209, 81, 0.807);
+}
+
+button#closeBtn {
+    background-color: rgb(225, 129, 129);
+    color: rgb(51, 35, 35);
+}
+
+button#closeBtn:hover {
+    background-color: red;
+    color: #fff;
+}
