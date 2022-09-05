@@ -22,7 +22,7 @@ function maxNum2(arr) {
 
     for (let i = index + 1; i < arr.length; i++) {
       let nextElement = arr[i];
-      if (element < nextElement) {
+      if (element <= nextElement) {
         isBigger = false;
         break;
       }
