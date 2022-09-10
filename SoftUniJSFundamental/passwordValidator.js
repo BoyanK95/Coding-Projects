@@ -9,7 +9,7 @@ function passwordValidator(password) {
         console.log('Password must consist only of letters and digits');
     };
     if(!containsTwoDigits(password)){
-        console.log('Password must have at least 2 digit');
+        console.log('Password must have at least 2 digits');
     };
     if (lengthChek(password) && isAlphabetical(password) && containsTwoDigits(password)) {
         console.log('Password is valid');
