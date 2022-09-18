@@ -5,12 +5,12 @@ function distincArr(arr) {
         let firstNumber = arr[i];
         for (let j = 1; j < arr.length; j++) {
             let secondNumber = arr[j];
-            if (firstNumber !== secondNumber) {
-                result.push(firstNumber);
+            if (firstNumber === secondNumber) {
+                arr.pop(firstNumber);
             }
         }
     }
-    console.log(result);
+    console.log(arr);
         
 
 }
