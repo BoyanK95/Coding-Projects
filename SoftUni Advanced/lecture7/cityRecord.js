@@ -1,13 +1,9 @@
 function solve(name, population, treasury) {
-    return {
-        name,
-        population,
-        treasury
-    };
+  return {
+    name,
+    population,
+    treasury,
+  };
 }
 
-solve('Tortuga',
-
-7000,
-
-15000)
+solve("Tortuga", 7000, 15000);
