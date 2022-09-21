@@ -1,3 +1,6 @@
 function extractText() {
-    // TODO
+    let listItems = document.querySelectorAll('li')
+    let resultForm = document.getElementById('#result')
+
+    
 }

@@ -7,8 +7,19 @@
     <title>Demo</title>
 </head>
 <body>
+    <h1>Hello Poko</h1>
+    <h2>Don't worry</h2>
+    <h3>You will be a millionere soon ...</h3>
+    <p>just keep going strong !!!!!</p>
+
+    <button onclick="onBtnClick()">What are you doing ?</button>
     <script>
-        console.log(document);
+        function onBtnClick() {
+            
+            
+            let activity = window.prompt(`What are you doing?`).value
+            console.log(activity);
+        }
     </script>
 </body>
 </html>
