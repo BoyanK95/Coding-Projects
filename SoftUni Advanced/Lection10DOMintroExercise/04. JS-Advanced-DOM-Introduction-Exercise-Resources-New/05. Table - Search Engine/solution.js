@@ -1,9 +1,15 @@
 function solve() {
-   document.querySelector('#searchBtn').addEventListener('click', onClick);
+  document.querySelector("#searchBtn").addEventListener("click", onClick);
 
-   function onClick() {
-      let searchText = document.getElementById("searchField").value;
-      
+  let tableRows = document.querySelectorAll("tbody tr");
+  let searchText = document.getElementById("searchField");
 
-   }
+  function onClick() {
+    for (let table of tableRows) {
+      table.classList.remove("select");
+      if (table.innerHTML.includes(searchText.value)) {
+        table.className = "select";
+      }
+    }
+  }
 }
