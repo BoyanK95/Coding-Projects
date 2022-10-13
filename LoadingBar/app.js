@@ -1,0 +1,17 @@
+const counterEl = document.querySelector('.counter');
+const barEl = document.querySelector('.loadingbar-front');
+
+let idx = 0;
+
+updateNum()
+
+function updateNum() {
+    counterEl.innerText = idx + '%';
+    barEl.style.width = idx + '%';
+    idx++
+
+    if (idx < 100) {
+        setTimeout(updateNum, 50)
+    }
+
+}
