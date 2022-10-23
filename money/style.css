@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+    align-items: center;
+}
+#container{
+    text-align: center;
+    align-items: center;
+}
+#money{
+    font-size: 36px;
+    color: rgb(2, 88, 2);
+}
+
+#moneyBtn{
+    font-size: 25px;
+    border-radius: 7px;
+    font-weight: 550;
+    color: darkgreen;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#moneyBtn:hover{
+    background-color: darkgreen;
+    color: #fff;
+    box-shadow: 3px 3px 7px rgba(0,0,0,.6);
+}
+
+.disabled{
+    background-color: darkgray;
+}
+.disabled:hover{
+    background-color: rgb(146, 146, 146);
+}
+
+.aLotOfMoney{
+    width: 777px;
+}
