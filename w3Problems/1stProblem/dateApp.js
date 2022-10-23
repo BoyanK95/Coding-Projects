@@ -3,7 +3,7 @@ const currentDayEl = document.getElementById('day')
 const today = new Date();
 const day = today.getDay()
 const daylist = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Friday', 'Saturday']
-let todayValue = 'Today is : ' + daylist[day] + '.';
+let todayValue = 'Today is : ' + daylist[day] + '!';
 currentDayEl.textContent = todayValue
 let hour = today.getHours();
 let minute = today.getMinutes();
@@ -27,4 +27,4 @@ if (hour === 0 && prepand === ' AM') {
     }
 }
 console.log('Current Time : ' + hour + prepand + ' : ' + minute + ' : ' + second);
-currentDateEl.textContent = `Current Time : ${hour} ${prepand} : ${minute} : ${second}`
+currentDateEl.textContent = `Current Time: ${hour} ${prepand}  :  ${minute}  : ${second}`
