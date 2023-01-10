@@ -23,5 +23,5 @@ function isValidAnagram(s1, s2) {
 
 
 console.log(isValidAnagram('danger', 'garden'));
-console.log(isValidAnagram('danger', 'garsen'));
+console.log(isValidAnagram('danger', 'garDen'));
 console.log(isValidAnagram('danger', 'gardener'));
